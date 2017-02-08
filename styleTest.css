@@ -1,0 +1,221 @@
+/* Space out content a bit */
+body {
+  background-color:white;
+  background-image:url(Images/background.jpg);
+}
+
+/* Customize container */
+.container {
+  max-width: 900px;
+  padding-bottom: 50px;
+  height: auto;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 100px;
+}
+
+/*Col 1*/
+.header p {
+  font-size: 8px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.header img{
+  width: 100%;
+  float:left;
+}
+
+/*Col 2*/
+#col2 li a{
+  color: white;
+}
+
+#col2 li a:hover {
+  background-color: #ffffff;
+  color: grey;}
+
+#col2 img{
+  width: 70%;
+}
+
+/* Navigation */
+
+.naviga {
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.naviga ul {
+  list-style-type: none;
+}
+
+.naviga li{
+  float: left;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+
+.naviga li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#AP {
+  background-color: white;
+  color: grey;
+}
+
+#partag{
+  height: 20px;
+  width: auto;
+}
+
+.naviga li a:hover {
+  background-color: #ffffff;
+  color: grey;
+  text-decoration: none;
+}
+
+/* Carousel */
+
+#myCarousel
+{
+  position: relative;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+/* Contenido*/
+
+.col-md-6{
+  max-height: 650px;
+}
+
+ .Contenido {
+  padding-top: 15px;
+  padding-bottom: 15px;
+ }
+
+  .Contenido img{
+  max-width: 405px;
+ }
+
+ .Contenido figcaption{
+  position: relative;
+  text-align: center; 
+}
+
+@font-face {
+  font-family: "TrashHand";
+  src: url('TrashHand.TTF')format("truetype");
+} 
+
+@font-face {
+  font-family: "Bebas";
+  src: url('BEBAS.TTF')format("truetype");
+} 
+
+#top1{
+  bottom: 70px;
+  font-size: 20px;
+  color: grey;
+}
+
+#top11{
+  font-family: "TrashHand";
+  bottom: 70px;
+  font-size: 20px;
+  color: #e9a2b1;
+}
+
+#top2{
+  font-family: "TrashHand";
+  bottom: 70px;
+  font-size: 25px;
+  color: grey;
+}
+
+#bot1{
+  font-family: "Bebas";
+  bottom: 250px;
+  font-size: 55px;
+  color: white;
+}
+
+#bot11{
+  font-family: "Bebas";
+  bottom: 190px;
+  font-size: 55px;
+  color: white;
+}
+
+#bot2{
+  font-family: "Bebas";
+  bottom: 70px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffb220;
+  margin-left: 10px;
+  float: left;
+}
+
+ #imgbot1{
+    position: relative;
+    bottom: 35px;
+ }
+
+ #imgbot2{
+    position: relative;
+    bottom: 12px;
+ }
+
+/* Footer */
+.footer {
+  padding-top: 5px;
+  text-align: center;
+  color: #777;
+  height: 150px;
+  background-color: #ffffff;
+}
+
+.footer img{
+  max-width: 900px;
+}
+
+ @media screen and (max-width:995px) {
+  .Contenido {
+    align-items: center;
+    text-align: center;
+  }
+  #bot2{
+    float: none;
+    right: 90px;
+    }
+
+  #titre{
+    width: 80%;
+  }
+  #logo{
+    display: none;
+   }
+
+}
+ @media screen and (max-width:900px) {
+  .footer img{
+  max-width: 100%;
+  height: auto;
+  }
+
+}
+@media screen and (max-width:770px) {
+  .footer img{
+  max-width: 100%;
+  height: auto;
+  }
+}

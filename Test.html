@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Inaïa Tolentino">
+    <title>Test</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Style -->
+    <link href="styleTest.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+    <!--HEADER -->
+      <div class="header">
+        <div class="col-md-7" id="col1">
+          <p>TENERIFE •  GRAN CANARIA •  LANZAROTE •  FUERTEVENTURA •  LA PALMA •  LA GOMERA •  EL HIERRO </p>
+           <img src="Images/title.png" id="titre" alt="title">
+        </div>
+        <div class="col-md-5" id="col2">
+            <img src="Images/LogoIslas.png" id="logo">
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Idioma <b class="caret"></b> </a>
+                <ul class="dropdown-menu">
+                  <li>Espanol</li>
+                  <li>English</li>
+                  <li>Français</li>
+                </ul>
+              </li>
+            </ul>
+        </div>
+      </div>
+    <!--NAVIGATION -->
+      <div class="naviga">
+        <ul>
+          <li><a href="Porque.asp">Por qué Ilslas Cananrias?</a></li>
+          <li><a href="Organiza.asp">Organiza</a></li>
+          <li><a href="Descubre.asp">Descubre</a></li>
+          <li><img src="Images/partag.png" id="partag">
+          <li><a href="AccesoProf.asp" id="AP">Asseco Profisionales</a>
+        </ul> 
+      </div>
+    <!--SLIDER -->
+      <div class="slider">
+        <!--img src="decor1.png" id="left"-->
+        <!--img src="decor2.png" id="right"-->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Pictures for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="Images/img1.jpg" alt="image1">
+            </div>
+            <div class="item">
+              <img src="Images/img2.jpg" alt="image2">
+            </div>
+            <div class="item">
+              <img src="Images/img3.jpg" alt="image3">
+            </div>
+            <div class="item">
+              <img src="Images/img4.jpg" alt="image4">
+            </div>
+          </div>
+          <!-- Left and right controls -->
+         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    <!--CONTENIDO -->
+      <div class="Contenido">
+        <!--COL 1 -->
+        <div class="col-md-6">
+          <figure>
+            <img src="Images/contenido11.jpg" alt="img1">
+            <figcaption id="top1">LA BODA EN A PLAYA <br></figcaption>
+            <figcaption id="top11">Olivier y Johanna</figcaption>
+          </figure>
+          <figure id="imgbot1">
+            <img src="Images/contenido21.png" alt="imag3">
+            <figcaption id="bot1">ANIVERSARIO</figcaption>
+            <figcaption id="bot11">LUA DE MEU</figcaption>
+          </figure>
+        </div>
+        <!--COL 2 -->
+        <div class="col-md-6">
+          <figure>
+            <img src="Images/contenido12.jpg" alt="img2">
+            <figcaption id="top2">LAS MEJORES  <span style="color:#e9a2b1">PUESTAS DE SOL</span></figcaption>
+          </figure>
+          <figure id="imgbot2">
+            <img src="Images/contenido22.png" alt="img4">
+            <figcaption id="bot2">DESCARGA GARTIS<br>25 INVITATIONES BODA</figcaption>
+          </figure>
+          
+        </div>
+      </div>
+
+    </div> <!-- /container -->
+
+    <!--FOOTER -->
+    <footer class="footer">
+      <p> Organiza tu boda en las Islas Canarias El Hierro, La Gomera, La.<br></p>
+      <img src="Images/logos.jpg">
+    </footer>
+
+  </body>
+
+</html>
