@@ -203,6 +203,9 @@ body {
   float: left;
 }
   /*Images*/
+  height: 150px;
+  background-color: #ffffff;
+}
  #imgbot1{
     position: relative;
     bottom: 35px;
@@ -218,12 +221,16 @@ body {
   padding-top: 5px;
   text-align: center;
   color: #777;
-  height: 150px;
-  background-color: #ffffff;
-}
 
 .footer img{
   max-width: 900px;
+}
+
+/* Responsive */
+
+@media screen and (max-width:1510px) {
+  #center{
+    display: none;}
 }
 
  @media screen and (max-width:995px) {
@@ -231,8 +238,9 @@ body {
     align-items: center;
     text-align: center;
   }
-  #center, #deco, #logo,#left,#right,#partag {
-    display: none;}
+  #deco, #logo,#left,#right,#partag {
+    display: none;
+  }
 
   #bot2{
     float: none;
@@ -246,29 +254,45 @@ body {
   .naviga li a {
   font-size: 12px;}
 
-}
-
- @media screen and (max-width:900px) {
   .footer img{
   max-width: 100%;
   height: auto;
   }
 }
+
 @media screen and (max-width:770px) {
-  .footer img{
-  max-width: 100%;
-  height: auto;
-  }
-
-  .footer p{
+  .footer p + {
     display: none;
   }
 
-   #idiom{
+  #idiom{
     display: none;
    }
 
-   #titre{
+  #titre{
     width: 100%;
+  }
+
+  .header {
+  padding-bottom: 15%;
+  }
+
+  .naviga li a {
+  font-size: 12px;
+  padding-right: 15%;
+  padding-left: 15%;
+  }
+
+  #AP {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width:480px)
+{
+  .footer img{
+  max-width: 100%;
+  height: auto;
   }
 }
