@@ -59,6 +59,7 @@ body {
 }
 
 .naviga li a {
+  font-size: 14px;
   display: block;
   color: white;
   text-align: center;
@@ -205,17 +206,38 @@ body {
     display: none;
    }
 
+  #partag{
+    display: none;
+   }
+
+  .naviga li a {
+  font-size: 12px;}
+
+
+
 }
+
  @media screen and (max-width:900px) {
   .footer img{
   max-width: 100%;
   height: auto;
   }
-
 }
 @media screen and (max-width:770px) {
   .footer img{
   max-width: 100%;
   height: auto;
+  }
+
+  .footer p{
+    display: none;
+  }
+
+   #idiom{
+    display: none;
+   }
+
+   #titre{
+    width: 100%;
   }
 }
