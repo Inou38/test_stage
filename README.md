@@ -1,3 +1,9 @@
 # test_stage
 
-#First version of the site
+<!-- This protopype contains:
+	- 2 .TTF for font-family
+	- HTML file
+	- CSS file
+	- Images folder
+
+This is a WEB site  for an internship  test  -->
