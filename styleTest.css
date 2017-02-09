@@ -2,7 +2,10 @@
 body {
   background-color:white;
   background-image:url(Images/background.jpg);
+  background-repeat: no-repeat;
+  min-width: 520px;
 }
+
 /* FONT */
 @font-face {
   font-family: "TrashHand";
@@ -14,19 +17,19 @@ body {
   src: url('BEBAS.TTF')format("truetype");
 } 
 
-/* Customize container */
+/* Container */
 .container {
   max-width: 900px;
   padding-bottom: 50px;
   height: auto;
 }
 
-/* Custom page header */
+/* Header */
 .header {
   padding-bottom: 100px;
 }
 
-/*Col 1*/
+/* Header: Col 1*/
 .header p {
   font-size: 8px;
   color: #ffffff;
@@ -38,7 +41,7 @@ body {
   float:left;
 }
 
-/*Col 2*/
+/* Header: Col 2*/
 #col2 li a{
   padding-top: 5px;
   padding-bottom: 5px;
@@ -105,7 +108,7 @@ body {
   text-decoration: none;
 }
 
-/* Carousel */
+/* Slider */
 #left{
     height: 390px;
     position: absolute;
@@ -133,32 +136,32 @@ body {
     left: 335px;
 }
 
-
 /* Contenido*/
 
 .col-md-6{
   max-height: 650px;
 }
 
- .Contenido {
+.Contenido {
   padding-top: 15px;
   padding-bottom: 15px;
- }
-
-  .Contenido img{
-  max-width: 405px;
- }
-
- .Contenido figcaption{
-  position: relative;
-  text-align: center;}
-
-  #deco {
-    position: absolute;
-    left: 15px;
-    top: 20px;
 }
-  /* Text*/
+
+.Contenido img{
+  max-width: 405px;
+}
+
+.Contenido figcaption{
+  position: relative;
+  text-align: center;
+}
+
+#deco {
+  position: absolute;
+  left: 15px;
+  top: 20px;
+}
+  /* Contenido: Text*/
 #top1{
   bottom: 70px;
   font-size: 20px;
@@ -202,18 +205,15 @@ body {
   margin-left: 20px;
   float: left;
 }
-  /*Images*/
-  height: 150px;
-  background-color: #ffffff;
-}
+  /*Contenido: Images*/
  #imgbot1{
-    position: relative;
-    bottom: 35px;
+  position: relative;
+  bottom: 35px;
  }
 
  #imgbot2{
-    position: relative;
-    bottom: 12px;
+  position: relative;
+  bottom: 12px;
  }
 
 /* Footer */
@@ -221,10 +221,16 @@ body {
   padding-top: 5px;
   text-align: center;
   color: #777;
+  width: 100%;
+  height: 150px;
+  background-color: #ffffff;
+}
 
 .footer img{
-  max-width: 900px;
+  width: 800px;
+  height: auto;
 }
+
 
 /* Responsive */
 
@@ -233,11 +239,12 @@ body {
     display: none;}
 }
 
- @media screen and (max-width:995px) {
+@media screen and (max-width:995px) {
   .Contenido {
     align-items: center;
     text-align: center;
   }
+
   #deco, #logo,#left,#right,#partag {
     display: none;
   }
@@ -245,7 +252,7 @@ body {
   #bot2{
     float: none;
     right: 90px;
-    }
+  }
 
   #titre{
     width: 80%;
@@ -261,7 +268,7 @@ body {
 }
 
 @media screen and (max-width:770px) {
-  .footer p + {
+  .footer p{
     display: none;
   }
 
