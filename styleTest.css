@@ -1,8 +1,8 @@
 /* BODY */
 body {
   background-color:white;
-  background-image:url(Images/background.jpg);
-  background-repeat: no-repeat;
+  background-image:url(Images/background1.jpg);
+  background-attachment: fixed;
   min-width: 520px;
 }
 
