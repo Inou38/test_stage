@@ -161,6 +161,13 @@ body {
   left: 15px;
   top: 20px;
 }
+
+#deco2 {
+  position: absolute;
+  left: 40px;
+  top: 0;
+}
+
   /* Contenido: Text*/
 #top1{
   bottom: 70px;
@@ -245,7 +252,7 @@ body {
     text-align: center;
   }
 
-  #deco, #logo,#left,#right,#partag {
+  #deco, #deco2, #logo,#left,#right,#partag {
     display: none;
   }
 
